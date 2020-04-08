@@ -1,0 +1,10 @@
+.theme-form .element-wrapper {
+    display: grid;
+    grid-template-rows: 20px auto 13px;
+    padding-bottom: 5px;
+}
+
+.theme-form .element-wrapper .error-messages {
+    color: red;
+    font-size: 10px;
+}

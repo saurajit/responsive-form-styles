@@ -42,26 +42,36 @@ iPad 3
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1224px)  {
-    .theme-form {
+    .elements-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
+    }
+    .grid-full-width {
+        grid-column-end: 3;
     }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-    .theme-form {
+    .elements-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 10px;
+    }
+    .grid-full-width {
+        grid-column-end: 4;
     }
 }
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
-    .theme-form {
+    .elements-wrapper {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .grid-full-width {
+        grid-column-end: 5;
     }
 }
 
